@@ -1,0 +1,15 @@
+server:
+  port: 5003
+
+spring:
+  application:
+    name: APPROVAL-SERVICE
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/approval_service
+    username: root
+    password: duc432003
+    driver-class-name: com.mysql.cj.jdbc.Driver

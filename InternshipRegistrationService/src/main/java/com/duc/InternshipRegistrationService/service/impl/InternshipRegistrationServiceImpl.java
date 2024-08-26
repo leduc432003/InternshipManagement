@@ -64,7 +64,6 @@ public class InternshipRegistrationServiceImpl implements InternshipRegistration
                 .map(request -> {
                     request.setStatus(Status.APPROVED);
                     request.setComments(comments);
-                    // Optionally handle teacherId and other logic
                     return internshipRegistrationRepository.save(request);
                 })
                 .orElseThrow(() -> new RuntimeException("InternshipRequest not found"));
@@ -76,7 +75,6 @@ public class InternshipRegistrationServiceImpl implements InternshipRegistration
                 .map(request -> {
                     request.setStatus(Status.REJECTED);
                     request.setComments(comments);
-                    // Optionally handle teacherId and other logic
                     return internshipRegistrationRepository.save(request);
                 })
                 .orElseThrow(() -> new RuntimeException("InternshipRequest not found"));

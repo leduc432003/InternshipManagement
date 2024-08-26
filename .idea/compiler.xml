@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="InternshipRegistrationService" />
         <module name="studentservice" />
+        <module name="ApprovalService" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApprovalService" options="-parameters" />
       <module name="InternshipRegistrationService" options="-parameters" />
       <module name="studentservice" options="-parameters" />
     </option>
