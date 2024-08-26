@@ -1,0 +1,15 @@
+server:
+  port: 5001
+
+spring:
+  application:
+    name: STUDENT-SERVICE
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/student_service
+    username: root
+    password: duc432003
+    driver-class-name: com.mysql.cj.jdbc.Driver
