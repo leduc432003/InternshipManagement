@@ -39,4 +39,9 @@ public class StudentServiceImpl implements StudentService {
         updateStudent.setDiaChi(student.getDiaChi());
         return studentRepository.save(updateStudent);
     }
+
+    @Override
+    public Student getStudentByEmail(String email) {
+        return studentRepository.findByEmail(email);
+    }
 }

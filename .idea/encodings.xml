@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/ApprovalService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/InternshipRegistrationService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oauth2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/studentservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taskuserservice/src/main/java" charset="UTF-8" />
   </component>
 </project>

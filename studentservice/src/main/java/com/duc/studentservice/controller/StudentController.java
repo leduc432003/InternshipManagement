@@ -24,7 +24,7 @@ public class StudentController {
     }
 
     @GetMapping
-    public ResponseEntity<List<Student>> getAllStudent() {
+    public ResponseEntity<List<Student>> getAllStudent(@RequestHeader("Authorization") String jwt) {
         List<Student> students = studentService.getAllStudents();
         return new ResponseEntity<>(students, HttpStatus.OK);
     }
@@ -38,5 +38,10 @@ public class StudentController {
     public ResponseEntity<Student> getStudentById(@PathVariable Long id) {
         Student student = studentService.getStudentById(id);
         return new ResponseEntity<>(student, HttpStatus.OK);
+    }
+
+    @GetMapping("/email/{email}")
+    public Student getStudentByEmail(@PathVariable String email) {
+        return studentService.getStudentByEmail(email);
     }
 }
