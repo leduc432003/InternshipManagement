@@ -10,6 +10,7 @@
         <module name="InternshipRegistrationService" />
         <module name="ApprovalService" />
         <module name="taskuserservice" />
+        <module name="eureka-server" />
         <module name="studentservice" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ApprovalService" options="-parameters" />
       <module name="InternshipRegistrationService" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="oauth2" options="-parameters" />
       <module name="studentservice" options="-parameters" />
       <module name="taskuserservice" options="-parameters" />

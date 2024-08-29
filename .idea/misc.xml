@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/ApprovalService/pom.xml" />
         <option value="$PROJECT_DIR$/oauth2/pom.xml" />
         <option value="$PROJECT_DIR$/taskuserservice/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
       </list>
     </option>
   </component>
