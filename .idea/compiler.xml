@@ -11,6 +11,7 @@
         <module name="ApprovalService" />
         <module name="taskuserservice" />
         <module name="eureka-server" />
+        <module name="gatway" />
         <module name="studentservice" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="ApprovalService" options="-parameters" />
       <module name="InternshipRegistrationService" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="gatway" options="-parameters" />
       <module name="oauth2" options="-parameters" />
       <module name="studentservice" options="-parameters" />
       <module name="taskuserservice" options="-parameters" />
